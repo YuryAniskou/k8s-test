@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-db-configmap
+type: Opaque
+data:
+  mongo-db-url: mongo-db-service
