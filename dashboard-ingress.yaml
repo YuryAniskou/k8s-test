@@ -7,8 +7,11 @@ spec:
     - host: our-trail.com
       http:
         paths:
-          - backend:
+          - path: "/"
+            pathType: "Prefix"
+            backend:
               service:
                 name: mongo-express-service
+                pthType: Prefix
                 port:
                   number: 80
