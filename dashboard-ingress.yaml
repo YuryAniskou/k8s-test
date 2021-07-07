@@ -4,7 +4,7 @@ metadata:
   name: dashboard-ingress
 spec:
   rules:
-    - host: our-trails.com
+    - host: our-trail.com
       http:
         paths:
           - path: "/"
