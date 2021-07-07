@@ -8,3 +8,5 @@ spec:
       http:
         paths:
           - backend:
+            serviceName: mongo-express-service
+            servicePort: 80
