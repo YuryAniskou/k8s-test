@@ -12,6 +12,5 @@ spec:
             backend:
               service:
                 name: mongo-express-service
-                pathType: Prefix
                 port:
                   number: 80
